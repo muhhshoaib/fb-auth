@@ -27,7 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-
 # Application definition
 
 AUTHENTICATION_BACKENDS = [
@@ -46,6 +45,7 @@ INSTALLED_APPS = [
 
 PROJECTS_APPS = [
     'src.apps.fbapp',
+    'social_django',
 ]
 
 INSTALLED_APPS += PROJECTS_APPS
