@@ -2,7 +2,7 @@
 .DS_Store
 .idea
 
-venv
-env
+pyvenv
+.env
 __pycache__
 *.pyc
