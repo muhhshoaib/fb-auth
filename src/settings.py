@@ -51,6 +51,12 @@ PROJECTS_APPS = [
 INSTALLED_APPS += PROJECTS_APPS
 
 
+# DJANGO SOCIAL APP SETTINGS
+
+LOGIN_URL = 'login'
+LOGIN_REDIRECT_URL = 'home'
+LOGOUT_URL = 'logout'
+LOGOUT_REDIRECT_URL = 'login'
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
