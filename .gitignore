@@ -6,3 +6,5 @@ pyvenv
 .env
 __pycache__
 *.pyc
+
+static/*
