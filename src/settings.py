@@ -25,7 +25,7 @@ SECRET_KEY = '0_i-(xjh2beb0qnzctsg8x(3-=&)uw6#et8+*7nvm&_)ty$-v^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
@@ -46,6 +46,7 @@ INSTALLED_APPS = [
 PROJECTS_APPS = [
     'src.apps.fbapp',
     'social_django',
+    'rest_framework',
 ]
 
 INSTALLED_APPS += PROJECTS_APPS
